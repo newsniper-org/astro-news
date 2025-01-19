@@ -1,0 +1,121 @@
+collections_config:
+  articles_article_01:
+    path: src/content/articles/article-01
+    name: Articles Article 01
+    icon: access_time
+  articles_article_02:
+    path: src/content/articles/article-02
+    name: Articles Article 02
+    icon: access_time
+  articles_article_03:
+    path: src/content/articles/article-03
+    name: Articles Article 03
+    icon: access_time
+  articles_article_04:
+    path: src/content/articles/article-04
+    name: Articles Article 04
+    icon: access_time
+  articles_article_05:
+    path: src/content/articles/article-05
+    name: Articles Article 05
+    icon: access_time
+  articles_article_06:
+    path: src/content/articles/article-06
+    name: Articles Article 06
+    icon: access_time
+  articles_article_07:
+    path: src/content/articles/article-07
+    name: Articles Article 07
+    icon: access_time
+  articles_article_08:
+    path: src/content/articles/article-08
+    name: Articles Article 08
+    icon: access_time
+  articles_article_09:
+    path: src/content/articles/article-09
+    name: Articles Article 09
+    icon: access_time
+  authors_ahmed_khan:
+    path: src/content/authors/ahmed-khan
+    name: Authors Ahmed Khan
+    icon: auto_awesome
+  authors_chloe_nguyen:
+    path: src/content/authors/chloe-nguyen
+    name: Authors Chloe Nguyen
+    icon: autorenew
+  authors_emily_devis:
+    path: src/content/authors/emily-devis
+    name: Authors Emily Devis
+    icon: auto_stories
+  authors_jane_doe:
+    path: src/content/authors/jane-doe
+    name: Authors Jane Doe
+    icon: auto_awesome
+  authors_john_smith:
+    path: src/content/authors/john-smith
+    name: Authors John Smith
+    icon: auto_fix_high
+  authors_liam_leonard:
+    path: src/content/authors/liam-leonard
+    name: Authors Liam Leonard
+    icon: auto_awesome_mosaic
+  authors_maria_gonzalez:
+    path: src/content/authors/maria-gonzalez
+    name: Authors Maria Gonzalez
+    icon: auto_fix_normal
+  authors_olivier_brown:
+    path: src/content/authors/olivier-brown
+    name: Authors Olivier Brown
+    icon: auto_stories
+  authors_rajesh_patel:
+    path: src/content/authors/rajesh-patel
+    name: Authors Rajesh Patel
+    icon: auto_awesome
+  authors_sofia_martinez:
+    path: src/content/authors/sofia-martinez
+    name: Authors Sofia Martinez
+    icon: auto_stories
+  categories_fashion:
+    path: src/content/categories/fashion
+    name: Categories Fashion
+    icon: cast_for_education
+  categories_finance:
+    path: src/content/categories/finance
+    name: Categories Finance
+    icon: camera_enhance
+  categories_lifestyle:
+    path: src/content/categories/lifestyle
+    name: Categories Lifestyle
+    icon: border_style
+  categories_medical:
+    path: src/content/categories/medical
+    name: Categories Medical
+    icon: border_vertical
+  categories_productivity:
+    path: src/content/categories/productivity
+    name: Categories Productivity
+    icon: cast_for_education
+  categories_programming:
+    path: src/content/categories/programming
+    name: Categories Programming
+    icon: call_missed_outgoing
+  categories_technology:
+    path: src/content/categories/technology
+    name: Categories Technology
+    icon: category
+  categories_wellness:
+    path: src/content/categories/wellness
+    name: Categories Wellness
+    icon: category
+  views:
+    path: src/content/views
+    name: Views
+    icon: reviews
+paths:
+  static: public
+  uploads: public/uploads
+timezone: America/New_York
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
