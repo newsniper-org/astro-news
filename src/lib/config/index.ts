@@ -31,8 +31,8 @@ export const NAVIGATION_LINKS: Link[] = [
     text: "Productivity",
   },
   {
-    href: "/categories/health",
-    text: "Health",
+    href: "/categories/medical",
+    text: "Medical",
   },
   {
     href: "/categories/finance",
