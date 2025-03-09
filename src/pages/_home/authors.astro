@@ -1,7 +1,7 @@
 ---
-import AuthorCard from "~/components/cards/authorCard.astro";
+import AuthorCard from "@/components/cards/authorCard.astro";
 import HeaderSection from "./headerSection.astro";
-import { authorsHandler } from "~/lib/handlers/authors";
+import { authorsHandler } from "@/lib/handlers/authors";
 
 const authors = authorsHandler.limitAurhors(6);
 ---

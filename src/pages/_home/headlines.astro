@@ -1,7 +1,7 @@
 ---
-import MainHeadline from "~/components/cards/mainHeadline.astro";
-import SubHeadlineCard from "~/components/cards/subHeadlineCard.astro";
-import { articlesHandler } from "~/lib/handlers/articles";
+import MainHeadline from "@/components/cards/mainHeadline.astro";
+import SubHeadlineCard from "@/components/cards/subHeadlineCard.astro";
+import { articlesHandler } from "@/lib/handlers/articles";
 
 const bigHeadline = articlesHandler.mainHeadline();
 const smallHeadlines = articlesHandler.subHeadlines();

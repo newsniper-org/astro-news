@@ -1,13 +1,12 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { SITE } from "~/lib/config";
-import { articlesHandler } from "~/lib/handlers/articles";
-import { categoriesHandler } from "~/lib/handlers/categories";
-import ListLayout from "~/layouts/list.astro";
+import { SITE } from "@/lib/config";
+import { articlesHandler } from "@/lib/handlers/articles";
+import { categoriesHandler } from "@/lib/handlers/categories";
+import ListLayout from "@/layouts/list.astro";
 
-import PaginationOne from "~/components/shared/pagination-one.astro";
-import WideCard from "~/components/cards/wideCard.astro";
-import { getMeta } from "~/lib/utils/getMeta";
+import Pagination from "@/components/shared/pagination.astro";
+import WideCard from "@/components/cards/wideCard.astro";
 import { getEntry } from "astro:content";
 export const getStaticPaths = (async ({ paginate }) => {
   const allCategories = categoriesHandler.allCategories();
@@ -52,7 +51,7 @@ if (!entry) {
   </ul>
   {
     articles.length > SITE.postsPerPage ? (
-      <PaginationOne
+      <Pagination
         length={page.lastPage}
         currentUrl={page.url.current}
         currentPage={page.currentPage}

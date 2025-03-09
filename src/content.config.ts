@@ -5,7 +5,7 @@ import {
   authorSchema,
   categorySchema,
   viewSchema,
-} from "~/lib/schema";
+} from "@/lib/schema";
 
 const articleCollection = defineCollection({
   loader: glob({ pattern: "**/*.mdx", base: "./src/content/articles" }),

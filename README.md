@@ -2,7 +2,7 @@
 
 A news website built with Astro, designed to provide a modern and responsive news reading experience.
 
-> **ℹ️ Info**  
+> **ℹ️ Info**
 > Astro news is my first open-source project, so there may be some bugs or issues. I’ll address them as quickly as possible.
 
 ![Astro News](./src/assets/images/screenshot-astronews.png "Astro News")
@@ -46,20 +46,15 @@ bun dev
 - Sitemap
 - Dark Mode
 - SEO Optimization (~)
-
-### Upcoming Features
-
 - Sharing Options
-- Keystatic Integration
-- Open Graph (OG) Image Generation
 
 ## 💻 Technologies
 
 This project leverages cutting-edge web technologies:
 
 - [Astro V5.0](https://astro.build/) - Modern static site builder
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [DaisyUI](https://daisyui.com/) - Tailwind CSS component library
+- [Tailwind CSS V4](https://tailwindcss.com/) - Utility-first CSS framework
+- [DaisyUI V5](https://daisyui.com/) - Tailwind CSS component library
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript
 - [MDX](https://mdxjs.com/) - Markdown with JSX support
 - [Bun V1.3.8](https://bun.sh/) - Fast JavaScript runtime
@@ -87,4 +82,4 @@ Open sourced under the [MIT license](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Mrahmani71/astro-news/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Mrahmani71/astro-news/issues)

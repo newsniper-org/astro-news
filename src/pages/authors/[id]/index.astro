@@ -1,5 +1,5 @@
 ---
-import { authorsHandler } from "~/lib/handlers/authors";
+import { authorsHandler } from "@/lib/handlers/authors";
 
 export const getStaticPaths = async () => {
   const authors = authorsHandler.allAuthors();

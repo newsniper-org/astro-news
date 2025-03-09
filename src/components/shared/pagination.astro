@@ -1,8 +1,8 @@
 ---
-import ArrowLeftDouble from "~/assets/svgs/arrow-left-double.astro";
-import ArrowRightDouble from "~/assets/svgs/arrow-right-double.astro";
-import ArrowLeft01 from "~/assets/svgs/arrow-left-01.astro";
-import ArrowRight01 from "~/assets/svgs/arrow-right-01.astro";
+import ArrowLeftDouble from "@/assets/svgs/arrow-left-double.astro";
+import ArrowRightDouble from "@/assets/svgs/arrow-right-double.astro";
+import ArrowLeft01 from "@/assets/svgs/arrow-left-01.astro";
+import ArrowRight01 from "@/assets/svgs/arrow-right-01.astro";
 
 type Props = {
   length: number;
@@ -34,7 +34,12 @@ const paginationList = Array.from(
 );
 ---
 
-<section class="flex items-center mx-auto mt-8">
+<section
+  class:list={[
+    "flex items-center mx-auto mt-8",
+    !prevUrl && !nextUrl ? "hidden" : "",
+  ]}
+>
   <nav class="join">
     {
       `${firstUrl}/1` == `${currentUrl}` ? (
