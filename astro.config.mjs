@@ -7,6 +7,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 import sitemap from "@astrojs/sitemap";
 
+import sanity from "@sanity/astro";
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.url,
@@ -14,7 +17,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [readingTime, modifiedTime],
   },
-  integrations: [mdx(), sitemap(), pagefind()],
+  integrations: [mdx(), sitemap(), pagefind(), sanity(), react()],
   vite: {
     plugins: [tailwindcss()],
   },
