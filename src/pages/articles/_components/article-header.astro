@@ -9,7 +9,7 @@ import Divider from "@/components/bases/divider.astro";
 import { categoriesHandler } from "@/lib/handlers/categories";
 import { authorsHandler } from "@/lib/handlers/authors";
 import Share from "@/components/elements/share.astro";
-import ScriptShare from "@/components/bases/script.astro";
+
 type Props = {
   article: CollectionEntry<"articles">;
   readingTime: string;
@@ -71,7 +71,7 @@ const authors = authorsHandler.getAuthors(article.data.authors);
         </span>
       </div>
       <!-- TODO: fix name, href, avatar of author -->
-      <div class="w-full flex items-center justify-between">
+      <div class="w-full flex flex-wrap gap-2 items-center justify-between">
         <div class="flex flex-wrap gap-4">
           {
             authors.map((author) => (
@@ -103,5 +103,4 @@ const authors = authorsHandler.getAuthors(article.data.authors);
       </div>
     </div>
   </div>
-  <ScriptShare />
 </section>
